@@ -1,0 +1,3 @@
+[submodule "L-SMASH-Works-cross-makefile"]
+	path = L-SMASH-Works-cross-makefile
+	url = https://github.com/daisukekoba/L-SMASH-Works-cross-makefile
