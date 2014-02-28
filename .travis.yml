@@ -6,5 +6,5 @@ compiler:
 script:
   - cd L-SMASH-Works-cross-makefile && make
 
-before_script:
+install:
   - sudo apt-get install -y -q binutils-mingw-w64-i686 gcc-mingw-w64-i686
