@@ -4,7 +4,7 @@ compiler:
   - i686-w64-mingw32-gcc
 
 script:
-  - cd L-SMASH-Works-cross-makefile && make FFMPEG_LIBAV=$(FFMPEG_LIBAV)
+  - cd L-SMASH-Works-cross-makefile && make FFMPEG_LIBAV=${FFMPEG_LIBAV}
 
 install:
   - sudo apt-get install -q binutils-mingw-w64-i686 gcc-mingw-w64-i686
